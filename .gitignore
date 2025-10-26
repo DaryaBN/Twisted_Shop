@@ -1,0 +1,27 @@
+# Unity (игнорируем временные файлы и кэши)
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+*.tmp
+*.pid
+*.seed
+*.pid.lock
+
+# Visual Studio (игнорируем настройки IDE и кэши)
+.vs/
+*.userprefs
+*.csproj.user
+*.suo
+*.sln.docstates
+obj/
+bin/
+Keystore/
+
+# Другие общие игноры
+.DS_Store
+Thumbs.db
+*.log
