@@ -25,3 +25,8 @@ Keystore/
 .DS_Store
 Thumbs.db
 *.log
+/Assets/AssetStoreTools*
+/ProjectSettings/LocalScmSettings.asset  # Если не игнорируется автоматически
+/[Mm]emoryCaptures/
+/[.Mm]emoryCaptures/
+*.svd
