@@ -1,32 +1,68 @@
-# Unity (игнорируем временные файлы и кэши)
-[Ll]ibrary/
-[Tt]emp/
-[Oo]bj/
-[Bb]uild/
-[Bb]uilds/
-[Ll]ogs/
-[Uu]ser[Ss]ettings/
+# Стандартный файл .gitignore для проектов Unity.
+# Этот файл должен находиться в корневой директории вашего проекта.
+# Получить последнюю версию можно по ссылке: https://github.com/github/gitignore/blob/main/Unity.gitignore
+
+##################################
+# Временные файлы и кэш Unity
+##################################
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Dd]ata[cC]ache/
+/[Pp]ackage[Cc]ache/
+/[Pp]layer[Dd]ata[Cc]ache/
+
+# Файлы отчетов о сбоях
+sysinfo.txt
+*.stackdump
+
+##################################
+# Файлы проектов и настроек IDE
+##################################
+# Visual Studio
+.vs/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+
+# JetBrains Rider
+.idea/
+rider.log
+/[Aa]ssets/Plugins/Editor/JetBrains/
+
+# Mac / Linux
+.DS_Store
+*.orig
+*~
+*.log
+*.meta~
+Icon?
+.svn/
+
+# Файлы, сгенерированные при создании пакета
+*.unitypackage
+
+# Игнорировать кэши для отладки
+/[Mm]emoryCaptures/
+
+# Файлы, связанные с Asset Store Tools
+/[Aa]ssets/AssetStoreTools*
+
+# Дополнительные игноры
 *.tmp
 *.pid
 *.seed
 *.pid.lock
-
-# Visual Studio (игнорируем настройки IDE и кэши)
-.vs/
-*.userprefs
-*.csproj.user
-*.suo
-*.sln.docstates
-obj/
-bin/
-Keystore/
-
-# Другие общие игноры
-.DS_Store
-Thumbs.db
-*.log
-/Assets/AssetStoreTools*
-/ProjectSettings/LocalScmSettings.asset  # Если не игнорируется автоматически
-/[Mm]emoryCaptures/
-/[.Mm]emoryCaptures/
-*.svd
+/ProjectSettings/LocalScmSettings.asset
